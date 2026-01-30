@@ -1,0 +1,25 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/JSSuperior/Simple-HTTP-Assignment-Start#readme",
+  "bugs": {
+    "url": "https://github.com/JSSuperior/Simple-HTTP-Assignment-Start/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSSuperior/Simple-HTTP-Assignment-Start.git"
+  },
+  "license": "ISC",
+  "author": "JSSuperior",
+  "type": "commonjs",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2"
+  }
+}
